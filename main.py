@@ -25,7 +25,7 @@ with open("books/frankenstien.txt") as f:
     print("--- Bring report of {f} ---")
     print(f"{count_words(file_contents)} word(s) found in the document")
     for i in range(0, len(characters)):
-        print(f"The {STRING[i]} character was found {characters[i]} times")
+        print(f"The {STRING[i]} character was found {characters[STRING[i]]} times")
     print("--- End report ---")
 #read_book()
 
